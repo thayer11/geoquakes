@@ -2,11 +2,11 @@
 
 | Objectives |
 | :--- |
-| _Students will be able to:_ |
-| Use AJAX to grab data from the USGS earthquakes API |
-| Create and compile a Handlebars template |
-| Use Handlebars templating to display data from an AJAX call on your HTML page |
-| Use the Google Maps API to embed a map |
+| _By the end of this lab, students will be able to:_ |
+| **Use** AJAX to grab data from the USGS earthquakes API |
+| **Create** and **compile** a Handlebars template |
+| **Use** Handlebars templating to display data from an AJAX call on your HTML page |
+| **Use** the Google Maps API to embed a map |
 
 ## GeoQuakes
 In this lab we will be using live data from the USGS (United States Geological Survey), specifically a data set showing significant earthquakes (M4.0 or greater) from the past week.
