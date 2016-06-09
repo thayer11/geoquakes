@@ -47,10 +47,10 @@ Building up an html string in javascript is no fun and the rows in the `<div id=
     - Follow the tutorial at [Google Maps Javascript API](https://developers.google.com/maps/documentation/javascript/tutorial)
         + Note that you would normally need to sign up for an API key, but we've provided one (See `index.html` line 18)
         + Be VERY careful when you copy and paste code!
-    - Please center your map on San Francisco: `{ lat: 37.78, lng: -122.44}`
+    - Please center your map on Denver: `{lat: 39.76, lng: -105.01}`
 
 #### Part 4. Add pins to your map
-Once you've got the map to show up, your next goal is to drop a single pin on San Francisco. This is a sanity check.  
+Once you've got the map to show up, your next goal is to drop a single pin on Denver. This is a sanity check.  
 - Next, can you add only the first earthquake to the map?
 - Can you add pins for *all* the earthquakes to the map?
 
