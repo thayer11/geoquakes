@@ -1,5 +1,8 @@
 # <img src="https://cloud.githubusercontent.com/assets/7833470/10423298/ea833a68-7079-11e5-84f8-0a925ab96893.png" width="60"> GeoQuakes Lab
 
+<!-- Hook There's a lot of information on the web already.  Let's say I want to know how to get to the gym right now, what site might I open up?  Huginn example: I want to know if any Tweet has text "disaster" or "prayers go out to" and "Denver". What would I use then?  Maybe I want to "boil the frog", what would I use then? Today, we're going to "borrow" the data from the US Geological Survey to make a map of earthquakes.
+-->
+
 | Objectives |
 | :--- |
 | _By the end of this lab, students will be able to:_ |
@@ -15,6 +18,7 @@ In this lab we will be using live data from the USGS (United States Geological S
 - List information about each quake.
 - Display a Google Map with a pin at the epicenter of each quake.
 
+<!-- Demo this -->
 #### Part 1. Rendering Data
 Take a moment to familiarize yourself with the dataset by opening it in your browser: [http://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/significant_week.geojson](http://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/significant_week.geojson).
 
@@ -30,6 +34,7 @@ Take a moment to familiarize yourself with the dataset by opening it in your bro
 
 Write out the AJAX call that will grab the data and `console.log` the list of earthquakes.
 
+<!-- Demo this -->
 #### Part 2. Add the title data to the page using Handlebars templates
 
 Now, take a moment to familiarize yourself with the layout in `index.html`.
@@ -42,6 +47,7 @@ Now, take a moment to familiarize yourself with the layout in `index.html`.
 
 Building up an html string in javascript is no fun and the rows in the `<div id="info">` would be unwieldy to build that way. Let's add a Handlebars template.
 
+<!-- Demo the tutorial -->
 #### Part 3. Add Google Maps
 - Your next goal is to integrate Google Maps:
     - Follow the tutorial at [Google Maps Javascript API](https://developers.google.com/maps/documentation/javascript/tutorial)
@@ -49,6 +55,7 @@ Building up an html string in javascript is no fun and the rows in the `<div id=
         + Be VERY careful when you copy and paste code!
     - Please center your map on Denver: `{lat: 39.76, lng: -105.01}`
 
+<!-- Demo solution -->
 #### Part 4. Add pins to your map
 Once you've got the map to show up, your next goal is to drop a single pin on Denver. This is a sanity check.  
 - Next, can you add only the first earthquake to the map?
